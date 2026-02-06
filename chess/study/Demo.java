@@ -1,5 +1,4 @@
 package chess.study;
-
 interface Demo {
     int x = 10;
     static void info(){
@@ -9,10 +8,13 @@ interface Demo {
 class Parent1 implements Demo {
     static int s=100;
     int i=5;
-    static{
+    static {
         s++;
-        System.out.println("Static block: s = " + s);
-    }
+        Parent1 p = new Parent1();
+        p.i++;
+        System.out.println("Static block: p = "+p.i);
+        System.out.println("Static block: s = "+s);
+        }
     Parent1() {
         i++;
         System.out.println("Constructor: i = " + i);

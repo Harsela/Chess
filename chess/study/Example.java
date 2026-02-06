@@ -1,7 +1,6 @@
 package chess.study;
 
 abstract class Parent{
-    //static int i = 5;
     int i=5;
 //    static{
 //        i++;
