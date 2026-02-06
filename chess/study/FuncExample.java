@@ -26,28 +26,3 @@ public class FuncExample{
         Greeting.info();
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-//@FunctionalInterface
-//public interface FuncExample{
-//    String sayHello(String name);
-//
-//    default void printPurpose() {
-//        System.out.println("This functional interface is for greeting people.");
-//    }
-//
-//    static String getSalutation() {
-//        return "Hello";
-//    }
-//}
