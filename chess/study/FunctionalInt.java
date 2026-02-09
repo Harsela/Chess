@@ -42,21 +42,4 @@ public class FunctionalInt {
 
 
 
-//    public static void main(String[] args) {
-//        Predicate<String> containsJava = str -> str.contains("Java");
-//        String str1 = "I love Java";
-//        System.out.println("\"" + str1 + "\" contains 'Java'? " + containsJava.test(str1));
-//
-//        Consumer<String> printMessage = msg -> System.out.println("Message: " + msg);
-//        printMessage.accept("Functional interfaces are fun!");
-//
-//        Function<String, Integer> stringLength = s -> s.length();
-//        String str2 = "Hello";
-//        System.out.println("Length of \"" + str2 + "\" = " + stringLength.apply(str2));
-//
-//        Supplier<String> quoteSupplier = () -> "Practice makes perfect!";
-//        System.out.println("Quote: " + quoteSupplier.get());
-//
-//    }
-//
-//}
+
