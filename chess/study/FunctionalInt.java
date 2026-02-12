@@ -16,7 +16,7 @@ public class FunctionalInt {
 
         Supplier<String>quote= () -> "Ended";
         System.out.println(quote.equals("Ended"));
-
+//
 //        Supplier<String>quote=() -> "Ended";
 //        String res = quote.get();
 //        System.out.println(res.equals("Ended"));
