@@ -1,7 +1,6 @@
 package chess.study.harsela;
 
 import java.lang.reflect.Field;
-
 public class JsonPrep {
     public static void main(String[] args) throws Exception {
         Student s = new Student();

@@ -1,6 +1,9 @@
 package chess.study.harsela;
 
 public class Student {
-    private String name = "Rob";
-    private String age = "22";
+    private String name;
+    private int age=22;
+    void student1(){
+    }
 }
+
