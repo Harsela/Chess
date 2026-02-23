@@ -12,16 +12,16 @@ public class JsonPrep {
 
             String name = fields[i].getName();
             Object value = fields[i].get(s);
-            json += "\"" + name + "\"";
-            json += ":";
-            json += "\"" + value + "\"";
-
+            json += "\"" + name + "\":";
+            if (value instanceof Number || value == null) {
+                json += value;
+            } else {
+                json += "\"" + value + "\"";
+            }
             if (i < fields.length - 1) {
                 json += ",";
             }
         }
-        json += "}";
-
         System.out.println(json);
     }
 }
